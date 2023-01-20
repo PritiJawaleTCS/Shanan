@@ -31,6 +31,7 @@ public void logoutToApp(){
 @AfterClass
 public void closeBrowser() {
 	Reporter.log("Close Browser", true);
+	System.out.println("Comments from Githun by team leader");
 
 }
 }
